@@ -1,0 +1,29 @@
+.places__description {
+  margin-top: 0;
+  font-size: 18px;
+  line-height: 1.67;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width : 1440px) {
+  .places__description {
+    font-size: 26px;
+    line-height: 1.67;
+  }
+}
+
+@media screen and (max-width : 768px) {
+  .places__description {
+    padding: 0 0 24px 0;
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}
+
+@media screen and (max-width : 425px) {
+  .places__description {
+    padding: 24px 16px 0 16px;
+    font-size: 16px;
+    line-height: 1.62;
+  }
+}

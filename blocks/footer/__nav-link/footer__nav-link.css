@@ -1,0 +1,17 @@
+.footer__nav-link,
+.footer__nav-link:active,
+.footer__nav-link:visited {
+  text-decoration-line: none;
+  color: #fff;
+  transition: opacity 0.5s;
+}
+
+.footer__nav-link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 750px) {
+ .footer__nav-link {
+      display: list-item;
+    }
+  }

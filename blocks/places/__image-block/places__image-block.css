@@ -1,0 +1,5 @@
+@media screen and (max-width : 425px) {
+  .places__image-block {
+      padding: 0 0 8px 0;
+  }
+}

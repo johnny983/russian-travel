@@ -1,0 +1,16 @@
+.places__url-heading {
+  font-size: 12px;
+  line-height: 1.0;
+  letter-spacing: 0.2em;
+  color: #aaa;
+  padding: 0 0 12px 0;
+  display: block;
+}
+
+@media screen and (min-width : 1440px) {
+  .places__url-heading {
+    font-size: 16px;
+    line-height: 1.0;
+    letter-spacing: 0.2em;
+  }
+}
