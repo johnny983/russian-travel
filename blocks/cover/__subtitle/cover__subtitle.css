@@ -9,17 +9,11 @@
   max-width: 360px;
 }
 
-@media screen and (max-width : 768px) {
-  .cover__subtitle {
-    min-width: 375px;
-  }
-}
-
 @media screen and (max-width : 425px) {
   .cover__subtitle {
     font-size: 14px;
     line-height: 1.14;
-    min-width: 275px;
+    max-width: 288px;
     padding: 16px 0 0 0;
   }
 }

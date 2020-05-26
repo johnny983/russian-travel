@@ -2,19 +2,16 @@
   margin-top: 0;
   font-size: 18px;
   line-height: 1.67;
+  padding: 0 0 24px 0;
   margin-bottom: 0px;
 }
 
-@media screen and (min-width : 1440px) {
-  .places__description {
-    font-size: 26px;
-    line-height: 1.67;
-  }
+.places__description:last-of-type {
+  padding-bottom: 0;
 }
 
 @media screen and (max-width : 768px) {
   .places__description {
-    padding: 0 0 24px 0;
     font-size: 16px;
     line-height: 1.62;
   }
